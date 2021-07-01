@@ -1,3 +1,8 @@
+### Intellij ###
+.idea/
+**/*.iml
+
+### Java ###
 # Compiled class file
 *.class
 
@@ -21,3 +26,28 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+### Maven ###
+target/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/intellij,java,visualstudiocode
+
+### Narayana TxControl ###
+ObjectStore
+PutObjectStoreDirHere
