@@ -1,0 +1,1 @@
+# activemq-artemis-narayana-resource-plugin
